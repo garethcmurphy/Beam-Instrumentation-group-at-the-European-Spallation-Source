@@ -9,12 +9,14 @@ import getpass
 class SciCatManager:
     username = ""
     name = ""
+    email = ""
     def __init__(self):
         self.get_details()
 
     def get_details(self):
         self.username = getpass.getuser()
         self.name = pwd.getpwuid(os.getuid())[4]
+        self.email = self.name.replace(" ",".")+"@esss.se"
 
     def fetch(self):
         base_url = "https://scicatapi.esss.dk/"
@@ -59,10 +61,10 @@ class SciCatManager:
             "jobLogData": "string1",
             "scientificMetadata": {},
             "pid": "x12134",
-            "owner": self.username,
-            "ownerEmail": "string2",
-            "orcidOfOwner": "string3",
-            "contactEmail": "string4",
+            "owner": self.name,
+            "ownerEmail": self.email,
+            "orcidOfOwner": "https://orcid.org/0000-0002-1825-0097",
+            "contactEmail": self.email,
             "sourceFolder": "string5",
             "size": 0,
             "packedSize": 0,
