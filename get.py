@@ -10,13 +10,14 @@ class SciCatManager:
     username = ""
     name = ""
     email = ""
+
     def __init__(self):
         self.get_details()
 
     def get_details(self):
         self.username = getpass.getuser()
         self.name = pwd.getpwuid(os.getuid())[4]
-        self.email = self.name.replace(" ",".")+"@esss.se"
+        self.email = self.name.replace(" ", ".")+"@esss.se"
 
     def fetch(self):
         base_url = "https://scicatapi.esss.dk/"
@@ -50,22 +51,19 @@ class SciCatManager:
         derived_dataset = {
             "investigator": self.name,
             "inputDatasets": [
-                "20.500.12269/BRIGHTNESS/V200198",
-                "20.500.12269/BRIGHTNESS/V200197",
+                "20.500.12269/BRIGHTNESS/V200198"
             ],
             "usedSoftware": [
-                "Mantid",
-                "MantidPython"
+                "Mantid"
             ],
             "jobParameters": {},
             "jobLogData": "string1",
-            "scientificMetadata": {},
             "pid": "x12134",
             "owner": self.name,
             "ownerEmail": self.email,
             "orcidOfOwner": "https://orcid.org/0000-0002-1825-0097",
             "contactEmail": self.email,
-            "sourceFolder": "string5",
+            "sourceFolder": "/users/detector/experiments/v20/default",
             "size": 0,
             "packedSize": 0,
             "creationTime": "2019-06-04T10:53:02.681Z",
@@ -84,14 +82,14 @@ class SciCatManager:
                 "loki",
                 "odin"
             ],
-            "createdBy": "string13",
             "updatedBy": "string14",
-            "createdAt": "2019-06-04T10:53:02.681Z",
-            "updatedAt": "2019-06-04T10:53:02.681Z"
+            "scientificMetadata": {
+                "chopper_1_speed": {"u": "Hz", "v": "14"}
+            }
         }
 
         dataset_post = api_url + "DerivedDatasets?access_token="+token
-        r = requests.put(dataset_post, data = derived_dataset)
+        r = requests.put(dataset_post, json=derived_dataset)
 
 
 if __name__ == "__main__":
