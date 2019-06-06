@@ -1,0 +1,5543 @@
+{
+    "apiVersion": "1.1.1",
+    "datasets": {
+        "6ef03d52-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH1_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef0579c-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH1_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef06f34-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH1_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef08500-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH1_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef09a7c-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH2_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef0b5b6-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH2_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef0cf6a-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH2_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef0ebc6-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH2_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef10354-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH3_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef11fb0-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH3_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef139a0-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH3_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef150ca-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH3_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef166e6-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH4_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef17d16-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH4_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef1944a-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH4_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef1ab2e-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18001_CH4_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18001"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef1c19a-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH1_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef1dd74-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH1_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef1f4f8-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH1_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef20cd6-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH1_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef224aa-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH2_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef23c4c-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH2_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef25402-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH2_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef26bd6-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH2_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef2833c-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH3_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef29b7e-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH3_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef2b5f0-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH3_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef2d7d8-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH3_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef2f420-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG0"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef30ffa-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG0_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef3280a-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG1"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "100m AMGAB + IC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "ion chamber SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HCBLM I001-05005107"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        },
+        "6ef34038-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG1_OC"
+            ],
+            "attributes": [
+                {
+                    "name": "Channel_range",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": "Data type",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FLoat32"
+                },
+                {
+                    "name": "FMC SN",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "18002"
+                },
+                {
+                    "name": "FMC VERSION",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-Pico-1m4-C3"
+                },
+                {
+                    "name": "Load",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "OC"
+                },
+                {
+                    "name": "Location",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "BD lab room 4"
+                },
+                {
+                    "name": "Nb of points",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 10000
+                },
+                {
+                    "name": "Operator",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "Clement Derrez"
+                },
+                {
+                    "name": "Sampling rate",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "base": "H5T_STD_I64LE",
+                        "class": "H5T_INTEGER"
+                    },
+                    "value": 1000000
+                },
+                {
+                    "name": "Unit",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "A"
+                },
+                {
+                    "name": "mTCA crate ID",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "675"
+                }
+            ],
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE",
+                "fillTime": "H5D_FILL_TIME_IFSET",
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            },
+            "shape": {
+                "class": "H5S_SIMPLE",
+                "dims": [
+                    10000
+                ]
+            },
+            "type": {
+                "base": "H5T_IEEE_F32LE",
+                "class": "H5T_FLOAT"
+            }
+        }
+    },
+    "groups": {
+        "6eefd100-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/"
+            ],
+            "attributes": [
+                {
+                    "name": "HDF5_Version",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "1.8.18"
+                },
+                {
+                    "name": "file_name",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "FMC-PICO-evaluation.hdf5"
+                },
+                {
+                    "name": "file_time",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "HH:MM:SS"
+                },
+                {
+                    "name": "instrument",
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    },
+                    "type": {
+                        "charSet": "H5T_CSET_UTF8",
+                        "class": "H5T_STRING",
+                        "length": "H5T_VARIABLE",
+                        "strPad": "H5T_STR_NULLTERM"
+                    },
+                    "value": "AMC_PICO"
+                }
+            ],
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "groups",
+                    "id": "6ef00e72-3a6e-11e9-a37e-8c8590233798",
+                    "title": "FMC-PICO"
+                }
+            ]
+        },
+        "6ef00e72-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO"
+            ],
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "groups",
+                    "id": "6ef0236c-3a6e-11e9-a37e-8c8590233798",
+                    "title": "FMC-Pico-1m4-C3"
+                }
+            ]
+        },
+        "6ef0236c-3a6e-11e9-a37e-8c8590233798": {
+            "alias": [
+                "/FMC-PICO/FMC-Pico-1m4-C3"
+            ],
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef03d52-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH1_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef0579c-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH1_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef06f34-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH1_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef08500-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH1_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef09a7c-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH2_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef0b5b6-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH2_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef0cf6a-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH2_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef0ebc6-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH2_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef10354-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH3_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef11fb0-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH3_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef139a0-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH3_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef150ca-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH3_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef166e6-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH4_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef17d16-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH4_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef1944a-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH4_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef1ab2e-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18001_CH4_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef1c19a-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH1_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef1dd74-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH1_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef1f4f8-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH1_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef20cd6-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH1_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef224aa-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH2_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef23c4c-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH2_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef25402-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH2_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef26bd6-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH2_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef2833c-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH3_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef29b7e-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH3_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef2b5f0-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH3_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef2d7d8-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH3_RNG1_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef2f420-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH4_RNG0"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef30ffa-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH4_RNG0_OC"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef3280a-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH4_RNG1"
+                },
+                {
+                    "class": "H5L_TYPE_HARD",
+                    "collection": "datasets",
+                    "id": "6ef34038-3a6e-11e9-a37e-8c8590233798",
+                    "title": "18002_CH4_RNG1_OC"
+                }
+            ]
+        }
+    },
+    "root": "6eefd100-3a6e-11e9-a37e-8c8590233798"
+}
