@@ -6,6 +6,7 @@ import pwd
 import getpass
 import keyring
 import urllib.parse
+import platform
 
 
 class SciCatManager:
@@ -17,8 +18,18 @@ class SciCatManager:
         self.get_details()
 
     def fetch_login_from_keyring(self):
+        if platform.system() == 'Darwin':
+            print('darwin')
+            username="ingestor"
+            password=keyring.get_password('scicat', username)
+            config = {"username": username, "password":password}
+            print(config)
 
-        pass
+        return config
+
+
+
+
 
     def get_details(self):
         self.username = getpass.getuser()
@@ -33,10 +44,12 @@ class SciCatManager:
         ingestor_url = api_url+"Users/login"
         login_url = ingestor_url
 
+        config=self.fetch_login_from_keyring()
         filename = "config.json"
         if filename:
             try:
                 with open(filename, 'r') as f:
+                    pass
                     config = json.load(f)
             except FileNotFoundError:
                 print("Please make a config.json as in config.sample.json")
@@ -47,12 +60,17 @@ class SciCatManager:
 
         login_response = r.json()
         print(login_response)
+        if "id" in login_response:
+            token = login_response["id"]
+        if "access_token" in login_response:
+            token = login_response["access_token"]
+
         token = (login_response["id"])
         #pid = "20.500.12269%2FBRIGHTNESS%2FBeamInstrumentation0001"
 
         #dataset_url = api_url + "Datasets/"+pid+"?access_token="+token
         fields = {'creationLocation': 'V20'}
-        limit = {'limit': '1','order':"creationTime:desc"}
+        limit = {'limit': '1', 'order': "creationTime:desc"}
         fields_json = json.dumps(fields)
         limit_json = json.dumps(limit)
         fields_encode = urllib.parse.quote(fields_json)
@@ -71,7 +89,7 @@ class SciCatManager:
             "usedSoftware": [
                 "Mantid"
             ],
-            "jobParameters": {},
+            "jobParameters": {"cpus":"1"},
             "jobLogData": "string1",
             "pid": "x12134",
             "owner": self.name,
@@ -99,7 +117,8 @@ class SciCatManager:
             ],
             "updatedBy": "string14",
             "scientificMetadata": {
-                "chopper_1_speed": {"u": "Hz", "v": "14"}
+                "chopper_1_speed": {"u": "Hz", "v": "14"},
+                "chopper_2_speed": {"u": "Hz", "v": "15"}
             }
         }
 
