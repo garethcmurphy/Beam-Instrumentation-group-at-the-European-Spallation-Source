@@ -7,6 +7,7 @@ import getpass
 import keyring
 import urllib.parse
 import platform
+import socket
 
 
 class SciCatManager:
@@ -20,35 +21,36 @@ class SciCatManager:
     def fetch_login_from_keyring(self):
         if platform.system() == 'Darwin':
             print('darwin')
-            username="ingestor"
-            username=self.username
-            password=keyring.get_password('scicat', username)
-            config = {"username": username, "password":password}
-            print(config)
+            username = "brightness"
+            # username=self.username
+            password = keyring.get_password('scicat', username)
+            config = {"username": username, "password": password}
+            print(config["username"])
 
         return config
-
-
-
-
 
     def get_details(self):
         self.username = getpass.getuser()
         self.name = pwd.getpwuid(os.getuid())[4]
         self.email = self.name.replace(" ", ".")+"@esss.se"
+        self.hostname = socket.gethostname()
 
     def fetch(self):
         base_url = "https://scicatapi.esss.dk/"
-        base_url = "http://localhost:3000/"
+        if self.hostname == "CI0020036":
+            base_url = "http://localhost:3000/"
         user_url = base_url + "auth/msad"
         api_url = base_url + "api/v3/"
         ingestor_url = api_url+"Users/login"
-        login_url = user_url
+        login_url = ingestor_url
 
-        password = getpass.getpass()
-        config={"username":self.username, "password":password}
+        if platform.system() == 'Darwin':
+            config = self.fetch_login_from_keyring()
+        else:
+            password = getpass.getpass()
+            config = {"username": self.username, "password": password}
         #config = self.fetch_login_from_keyring()
-        
+
         r = requests.post(login_url, data=config)
 
         login_response = r.json()
@@ -76,9 +78,10 @@ class SciCatManager:
         print(dataset_url)
         d = requests.get(dataset_url)
         print(d.json())
-        #exit()
+        # exit()
         # mantid stuff
 
+        pid = "20.500.12269/x12134"
 
         derived_dataset = {
             "investigator": self.name,
@@ -88,9 +91,9 @@ class SciCatManager:
             "usedSoftware": [
                 "Mantid"
             ],
-            "jobParameters": {"cpus":"1"},
+            "jobParameters": {"cpus": "1"},
             "jobLogData": "string1",
-            "pid": "20.500.12269/x12134",
+            "pid": pid,
             "owner": self.name,
             "ownerEmail": self.email,
             "orcidOfOwner": "https://orcid.org/0000-0002-1825-0097",
@@ -123,7 +126,10 @@ class SciCatManager:
         }
 
         dataset_post = api_url + "Datasets?access_token="+token
-        r = requests.put(dataset_post, json=derived_dataset)
+        r = requests.delete(api_url + "Datasets/" +
+                            urllib.parse.quote_plus(pid) + "?access_token="+token)
+        print(r.json())
+        r = requests.post(dataset_post, json=derived_dataset)
         print(r.json())
 
 
