@@ -69,7 +69,7 @@ class SciCatManager:
         #pid = "20.500.12269%2FBRIGHTNESS%2FBeamInstrumentation0001"
 
         #dataset_url = api_url + "Datasets/"+pid+"?access_token="+token
-        fields = {'creationLocation': 'V20'}
+        fields = {'text': 'nicos_00000187'}
         limit = {'limit': '1', 'order': "creationTime:desc"}
         fields_json = json.dumps(fields)
         limit_json = json.dumps(limit)
@@ -80,6 +80,9 @@ class SciCatManager:
         print(dataset_url)
         d = requests.get(dataset_url)
         print(d.json())
+        exit()
+        # mantid stuff
+
 
         derived_dataset = {
             "investigator": self.name,
