@@ -23,8 +23,13 @@ class SciCatManager:
             print('darwin')
             username = "brightness"
             username = "ingestor"
-            # username=self.username
+            username = self.username
             password = keyring.get_password('scicat', username)
+            if not password:
+                print("No password found in keychain, please enter it now to store it.")
+                password = getpass.getpass()
+                keyring.set_password('scicat', username, password)
+
             config = {"username": username, "password": password}
             print(config["username"])
 
@@ -38,12 +43,12 @@ class SciCatManager:
 
     def fetch(self):
         base_url = "https://scicatapi.esss.dk/"
-        if self.hostname == "CI0020036":
-            base_url = "http://localhost:3000/"
+        # if self.hostname == "CI0020036":
+        #    base_url = "http://localhost:3000/"
         user_url = base_url + "auth/msad"
         api_url = base_url + "api/v3/"
         ingestor_url = api_url+"Users/login"
-        login_url = ingestor_url
+        login_url = user_url
 
         if platform.system() == 'Darwin':
             config = self.fetch_login_from_keyring()
