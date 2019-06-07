@@ -22,6 +22,7 @@ class SciCatManager:
         if platform.system() == 'Darwin':
             print('darwin')
             username = "brightness"
+            username = "ingestor"
             # username=self.username
             password = keyring.get_password('scicat', username)
             config = {"username": username, "password": password}
@@ -81,7 +82,8 @@ class SciCatManager:
         # exit()
         # mantid stuff
 
-        pid = "20.500.12269/x12134"
+        prefix = "20.500.12269"
+        pid = "x12134"
 
         derived_dataset = {
             "investigator": self.name,
@@ -125,12 +127,17 @@ class SciCatManager:
             }
         }
 
-        dataset_post = api_url + "Datasets?access_token="+token
-        r = requests.delete(api_url + "Datasets/" +
-                            urllib.parse.quote_plus(pid) + "?access_token="+token)
-        print(r.json())
+        delete_url = api_url + "Datasets/" + \
+            urllib.parse.quote_plus(prefix+"/"+pid) + "?access_token="+token
+        print(delete_url)
+        d = requests.delete(delete_url)
+        print(d.json())
+        dataset_post = api_url + "DerivedDatasets?access_token="+token
         r = requests.post(dataset_post, json=derived_dataset)
         print(r.json())
+        post_response = r.json()
+        if "pid" in post_response:
+            print(post_response["pid"])
 
 
 if __name__ == "__main__":
