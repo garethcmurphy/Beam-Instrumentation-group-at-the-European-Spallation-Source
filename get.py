@@ -23,7 +23,7 @@ class SciCatManager:
             print('darwin')
             username = "brightness"
             username = "ingestor"
-            username = self.username
+            #username = self.username
             password = keyring.get_password('scicat', username)
             if not password:
                 print("No password found in keychain, please enter it now to store it.")
@@ -32,6 +32,7 @@ class SciCatManager:
 
             config = {"username": username, "password": password}
             print(config["username"])
+            print(config["password"])
 
         return config
 
@@ -48,7 +49,7 @@ class SciCatManager:
         user_url = base_url + "auth/msad"
         api_url = base_url + "api/v3/"
         ingestor_url = api_url+"Users/login"
-        login_url = user_url
+        login_url = ingestor_url
 
         if platform.system() == 'Darwin':
             config = self.fetch_login_from_keyring()
@@ -145,7 +146,8 @@ class SciCatManager:
             print(post_response["pid"])
 
         delete_orig_url = api_url + "Datasets/"+urllib.parse.quote_plus(prefix+"/"+pid)+"/origdatablocks?access_token"+token
-        delete_orig = requests.delete()
+        delete_orig_response = requests.delete(delete_orig_url)
+        print(delete_orig_response.json())
         orig = {
             "size": 0,
             "dataFileList": [
@@ -170,8 +172,8 @@ class SciCatManager:
         }
 
         orig_post = api_url + "OrigDatablocks?access_token="+token
-        r = requests.post(dataset_post, json=orig)
-
+        orig_response = requests.post(orig_post, json=orig)
+        print(orig_response.json())
 
 if __name__ == "__main__":
     scicatman = SciCatManager()
