@@ -46,10 +46,12 @@ class SciCatManager:
         base_url = "https://scicatapi.esss.dk/"
         if self.hostname == "CI0020036":
             base_url = "http://localhost:3000/"
-        user_url = base_url + "auth/msad"
         api_url = base_url + "api/v3/"
+        user_url = base_url + "auth/msad"
         ingestor_url = api_url+"Users/login"
-        login_url = ingestor_url
+        login_url = user_url
+        if self.hostname == "CI0020036":
+            login_url = ingestor_url
 
         if platform.system() == 'Darwin':
             config = self.fetch_login_from_keyring()
@@ -145,9 +147,10 @@ class SciCatManager:
         if "pid" in post_response:
             print(post_response["pid"])
 
-        delete_orig_url = api_url + "Datasets/"+urllib.parse.quote_plus(prefix+"/"+pid)+"/origdatablocks?access_token"+token
+        delete_orig_url = api_url + "Datasets/"+urllib.parse.quote_plus(prefix+"/"+pid)+"/origdatablocks?access_token="+token
+        print(delete_orig_url)
         delete_orig_response = requests.delete(delete_orig_url)
-        print(delete_orig_response.json())
+        #print(delete_orig_response.json())
         orig = {
             "size": 0,
             "dataFileList": [
