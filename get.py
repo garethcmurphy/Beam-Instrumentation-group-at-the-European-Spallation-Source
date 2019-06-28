@@ -43,8 +43,8 @@ class SciCatManager:
 
     def fetch(self):
         base_url = "https://scicatapi.esss.dk/"
-        # if self.hostname == "CI0020036":
-        #    base_url = "http://localhost:3000/"
+        if self.hostname == "CI0020036":
+            base_url = "http://localhost:3000/"
         user_url = base_url + "auth/msad"
         api_url = base_url + "api/v3/"
         ingestor_url = api_url+"Users/login"
@@ -143,6 +143,34 @@ class SciCatManager:
         post_response = r.json()
         if "pid" in post_response:
             print(post_response["pid"])
+
+        delete_orig_url = api_url + "Datasets/"+urllib.parse.quote_plus(prefix+"/"+pid)+"/origdatablocks?access_token"+token
+        delete_orig = requests.delete()
+        orig = {
+            "size": 0,
+            "dataFileList": [
+                {
+                    "path": "string",
+                    "size": 0,
+                    "time": "2019-06-28T10:14:10.425Z",
+                    "chk": "string",
+                    "uid": "string",
+                    "gid": "string",
+                    "perm": "string"
+                }
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "loki",
+                "odin"
+            ],
+            "datasetId": prefix+"/"+pid,
+            "createdAt": "2019-06-28T10:14:10.425Z",
+            "updatedAt": "2019-06-28T10:14:10.425Z"
+        }
+
+        orig_post = api_url + "OrigDatablocks?access_token="+token
+        r = requests.post(dataset_post, json=orig)
 
 
 if __name__ == "__main__":
