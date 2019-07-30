@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
-import requests
-import json
+"""upload derived data to scicat"""
 import os
-import pwd
-import getpass
-import keyring
 import urllib.parse
 import platform
 import socket
+import json
+import pwd
+
+import getpass
+import keyring
+import requests
 
 
 class SciCatManager:
+    """fetch and delete from scicat"""
     username = "anonymoususer"
     name = "Anonymous User"
     email = "anonymous.user@mail.fjref.dk"
@@ -19,6 +22,7 @@ class SciCatManager:
         self.get_details()
 
     def fetch_login_from_keyring(self):
+        """"fetch login from keyring"""
         if platform.system() == 'Darwin':
             print('darwin')
             username = "brightness"
@@ -37,12 +41,14 @@ class SciCatManager:
         return config
 
     def get_details(self):
+        """get user details"""
         self.username = getpass.getuser()
         self.name = pwd.getpwuid(os.getuid())[4]
         self.email = self.name.replace(" ", ".")+"@esss.se"
         self.hostname = socket.gethostname()
 
     def fetch(self):
+        """fetch"""
         base_url = "https://scicatapi.esss.dk/"
         if self.hostname == "CI0020036":
             base_url = "http://localhost:3000/"
@@ -60,9 +66,9 @@ class SciCatManager:
             config = {"username": self.username, "password": password}
         #config = self.fetch_login_from_keyring()
 
-        r = requests.post(login_url, data=config)
+        login = requests.post(login_url, data=config)
 
-        login_response = r.json()
+        login_response = login.json()
         print(login_response)
         if "id" in login_response:
             token = login_response["id"]
@@ -85,8 +91,8 @@ class SciCatManager:
         dataset_url = api_url + "Datasets/fullquery?fields=" + \
             fields_encode+"&limits="+limit_encode+"&access_token="+token
         print(dataset_url)
-        d = requests.get(dataset_url)
-        print(d.json())
+        response_dataset = requests.get(dataset_url)
+        print(response_dataset.json())
         # exit()
         # mantid stuff
 
@@ -138,19 +144,19 @@ class SciCatManager:
         delete_url = api_url + "Datasets/" + \
             urllib.parse.quote_plus(prefix+"/"+pid) + "?access_token="+token
         print(delete_url)
-        d = requests.delete(delete_url)
-        print(d.json())
+        delete_response = requests.delete(delete_url)
+        print(delete_response.json())
         dataset_post = api_url + "DerivedDatasets?access_token="+token
-        r = requests.post(dataset_post, json=derived_dataset)
-        print(r.json())
-        post_response = r.json()
+        response = requests.post(dataset_post, json=derived_dataset)
+        post_response = response.json()
         if "pid" in post_response:
             print(post_response["pid"])
 
-        delete_orig_url = api_url + "Datasets/"+urllib.parse.quote_plus(prefix+"/"+pid)+"/origdatablocks?access_token="+token
+        delete_orig_url = api_url + "Datasets/" + \
+            urllib.parse.quote_plus(prefix+"/"+pid) + \
+            "/origdatablocks?access_token="+token
         print(delete_orig_url)
-        delete_orig_response = requests.delete(delete_orig_url)
-        #print(delete_orig_response.json())
+        requests.delete(delete_orig_url)
         orig = {
             "size": 0,
             "dataFileList": [
@@ -178,6 +184,7 @@ class SciCatManager:
         orig_response = requests.post(orig_post, json=orig)
         print(orig_response.json())
 
+
 if __name__ == "__main__":
-    scicatman = SciCatManager()
-    scicatman.fetch()
+    SCI = SciCatManager()
+    SCI.fetch()
