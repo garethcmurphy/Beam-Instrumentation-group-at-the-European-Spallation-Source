@@ -47,7 +47,7 @@ class SciCatManager:
         self.email = self.name.replace(" ", ".")+"@esss.se"
         self.hostname = socket.gethostname()
 
-    def fetch(self):
+    def upload(self):
         """fetch"""
         base_url = "https://scicatapi.esss.dk/"
         if self.hostname == "CI0020036":
@@ -184,7 +184,10 @@ class SciCatManager:
         orig_response = requests.post(orig_post, json=orig)
         print(orig_response.json())
 
+def main():
+    """main"""
+    sci = SciCatManager()
+    sci.upload()
 
 if __name__ == "__main__":
-    SCI = SciCatManager()
-    SCI.fetch()
+    main()
