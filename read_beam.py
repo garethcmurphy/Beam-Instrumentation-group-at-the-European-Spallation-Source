@@ -11,6 +11,7 @@ import h5py
 
 class ReadBeam:
     """read beam"""
+    url_base = "https://scicat.esss.se"
     file_name = "WSAFE.hdf5"
     user_dict = {}
     nx_entry_attributes = {}
@@ -24,9 +25,27 @@ class ReadBeam:
         "proposalId": "ZJKF12",
         "creationLocation": "ZJKF12",
         "ownerGroup": "ess",
-        "sourceFolder": "/nfs/groups/beamlines/beam",
+        "sourceFolder": "/nfs/groups/beamlines/beamInstrumentation/wsafe",
         "keywords": ["beam_test"],
         "type": "raw",
+    }
+    orig_data_block = {
+        "size": 526848,
+        "dataFileList": [
+            {
+                "path": "/nfs/groups/beamlines/wsafe/WSAFE.hdf5",
+                "size": 526848,
+                "time": "2019-12-11T12:48:03Z",
+                "chk": "34782",
+                "uid": "101",
+                "gid": "101",
+                "perm": "755"
+            }
+        ],
+        "ownerGroup": "ess",
+        "accessGroups": ["ess", "odin", "loki", "nmx"],
+        "createdBy": "ingestor",
+        "datasetId": "20.500.12269/beam_test17"
     }
 
     def read(self):
@@ -62,12 +81,15 @@ class ReadBeam:
             print(json.dumps(self.scicat_dataset, indent=2))
 
             access_token = "rgDUQ2MClMiRskrf2FtqVhQV9iWKT7cSyQID65uL8bGx9L4a6o4pgnEYOyExASKK"
-            url = "https://scicat.esss.se/api/v3/Datasets?access_token="+access_token
+            url = self.url_base + "/api/v3/Datasets?access_token="+access_token
             response = requests.post(url=url, json=self.scicat_dataset)
+            url = self.url_base + "/api/v3/OrigDatablocks?access_token="+access_token
+            response = requests.post(url=url, json=self.orig_data_block)
             print(response.json())
-            url_beg = "https://scicat.esss.se/datasets/"
-            url_end = urllib.parse.quote_plus("20.500.12269/"+self.scicat_dataset["pid"])
-            url=url_beg + url_end
+            url_beg = self.url_base + "/datasets/"
+            url_end = urllib.parse.quote_plus(
+                "20.500.12269/"+self.scicat_dataset["pid"])
+            url = url_beg + url_end
             self.urls.append(url)
         for url in self.urls:
             print(url)
