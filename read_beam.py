@@ -13,6 +13,7 @@ class ReadBeam:
     """read beam"""
     url_base = "https://scicat.esss.se"
     file_name = "WSAFE.hdf5"
+    prefix = "20.500.12269/"
     user_dict = {}
     nx_entry_attributes = {}
     attributes_dict = {}
@@ -84,6 +85,8 @@ class ReadBeam:
             url = self.url_base + "/api/v3/Datasets?access_token="+access_token
             response = requests.post(url=url, json=self.scicat_dataset)
             url = self.url_base + "/api/v3/OrigDatablocks?access_token="+access_token
+            self.orig_data_block["datasetId"] = self.prefix + \
+                self.scicat_dataset["pid"]
             response = requests.post(url=url, json=self.orig_data_block)
             print(response.json())
             url_beg = self.url_base + "/datasets/"
