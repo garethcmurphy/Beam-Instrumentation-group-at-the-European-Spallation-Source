@@ -7,6 +7,11 @@ name = "pypi"
 "h5json" ="*"
 requests ="*"
 keyring ="*"
+h5py = "*"
+matplotlib = "*"
+
+[scripts]
+start = "./read_beam.py"
 
 [dev-packages]
 pylint = "*"
